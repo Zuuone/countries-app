@@ -7,6 +7,7 @@
 
 p {
   font-size: 1.5rem;
+  margin: 12px 0;
 }
 
 .container {
@@ -19,7 +20,9 @@ p {
 }
 
 .hero {
-  margin-bottom: -6px;
+  /* margin-bottom: -6px; */
+  display: flex;
+  flex-direction: column;
 }
 
 .hero_photo {
