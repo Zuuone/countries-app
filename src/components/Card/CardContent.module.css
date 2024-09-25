@@ -1,0 +1,13 @@
+.countryInfo {
+  display: flex;
+}
+
+.peruFlag {
+  max-width: 65%;
+  max-height: 50vh;
+  border-radius: 8px;
+}
+
+.details {
+  margin: auto;
+}
