@@ -1,6 +1,6 @@
-import Hero from "./components/hero/hero";
-import CardContent from "./components/Card/CardContent";
-import peruFlag from "./assets/peruFlag.webp";
+import { Hero } from "@/components/hero";
+import { CardContent } from "@/components/Card/";
+import peruFlag from "@/assets/peruFlag.webp";
 
 import "./App.css";
 import styles from "./components/Card/CardContent.module.css";
@@ -15,7 +15,12 @@ function App({ country }: { country: Country }) {
   return (
     <>
       <div className="container">
-        <Hero />
+        <Hero
+          title="Explore Inca Citadel"
+          text1="Travel Guide"
+          text2="About Us"
+          text3="Contact"
+        />
 
         <CardContent>
           <img src={peruFlag} className={styles.peruFlag} alt="flag of Peru" />
